@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://media.istockphoto.com/id/600056976/photo/fresh-spring-grass.webp?a=1&b=1&s=612x612&w=0&k=20&c=RKfdJH3O_0Bh5mnlM-HzHdJ2YxO3pVYiVD978fcLYSA=) no-repeat
+    ;
+    background-size: cover;
+}
+
+.clock{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),0px 10px 20px rgba(0, 0, 0, 7);
+    height: 24vh;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.clock span{
+    position: relative;
+    top: -13%;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.clk span{
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+ 
+#time{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+
+
